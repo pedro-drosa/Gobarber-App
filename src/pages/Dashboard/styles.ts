@@ -36,6 +36,8 @@ export const UserAvatar = styled.Image`
   border-radius: 28px;
 `;
 
+export const ProfileButtonSignOut = styled.TouchableOpacity``;
+
 export const ProvidersList = styled(FlatList as new () => FlatList<Provider>)`
   padding: 32px 24px 16px;
 `;
